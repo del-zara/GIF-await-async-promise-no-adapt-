@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* render  */
+
+.container{
+    margin-top: 5%;
+    background-color: paleturquoise;
+    background-size: cover;
+   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    font-size: 4rem;
+    color:navy;
+
+}
+
+#input{
+    width: 10rem;
+    height: 1.7rem;
+    border-radius: 5px;
+    background-color: paleturquoise;
+    margin: 5%  43%  5%;
+    font-size: medium;
+    color: navy;
+    font-weight: 600;
+
+}
+
+#btn{
+    margin-left: 44%;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: navy;
+    color:paleturquoise;
+
+}
+
+
+
+#output{
+    border-style: groove;
+    border-color: navy;
+    padding: 1% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ iframe {
+    box-sizing: border-box;
+    border-radius: 5%;
+    border-color: darkblue;
+} 
+
+iframe:hover{
+    background: repeating-linear-gradient(paleturquoise, navy, darkblue);
+    opacity:0.4;
+}
+
+h3{
+    font-size: 1.125rem;
+    color:darkblue;
+}
+
